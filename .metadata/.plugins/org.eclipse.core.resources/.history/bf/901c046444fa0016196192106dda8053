@@ -1,9 +1,0 @@
-package cn.edu.ccut.aop;
-
-public class LogHandle {
-	
-	public void startSave() {
-		System.out.println("start save...");
-	}
-
-}

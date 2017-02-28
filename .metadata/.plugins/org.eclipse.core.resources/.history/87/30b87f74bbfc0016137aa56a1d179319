@@ -1,5 +1,0 @@
-package cn.edu.ccut.dao;
-
-public interface IUserDAO {
-	
-}

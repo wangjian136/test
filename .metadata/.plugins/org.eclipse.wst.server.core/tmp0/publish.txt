@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Tue Feb 28 12:46:08 CST 2017
-org.eclipse.jst.jee.server\:MyProj=D\:\\apache-tomcat-8.5.9\\webapps\\MyProj

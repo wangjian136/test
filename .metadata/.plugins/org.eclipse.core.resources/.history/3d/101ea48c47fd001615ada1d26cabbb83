@@ -1,7 +1,0 @@
-package cn.edu.ccut.service;
-
-import cn.edu.ccut.po.User;
-
-public interface IStudentService {
-	public boolean login(User user);
-}

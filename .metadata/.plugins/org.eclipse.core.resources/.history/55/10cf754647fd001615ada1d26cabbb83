@@ -1,9 +1,0 @@
-package cn.edu.ccut.dao;
-
-import java.util.List;
-
-import cn.edu.ccut.po.User;
-
-public interface IStudentDAO {
-	public List<Student> findAll();
-}

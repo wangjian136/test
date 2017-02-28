@@ -1,8 +1,0 @@
-package cn.edu.ccut.service;
-
-import cn.edu.ccut.vo.Student;
-
-
-public interface IStudentService {
-	public boolean insert(Student vo);
-}

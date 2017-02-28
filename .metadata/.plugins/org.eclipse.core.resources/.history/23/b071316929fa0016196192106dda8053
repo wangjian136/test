@@ -1,7 +1,0 @@
-package cn.edu.ccut.proxy;
-
-import java.lang.reflect.InvocationHandler;
-
-public class Handle implements InvocationHandler{
-
-}

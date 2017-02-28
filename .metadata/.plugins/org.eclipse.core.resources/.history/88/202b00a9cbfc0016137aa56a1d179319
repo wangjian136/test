@@ -1,7 +1,0 @@
-package cn.edu.ccut.service.impl;
-
-import cn.edu.ccut.service.IUserService;
-
-public class UserService implements IUserService{
-	
-}
