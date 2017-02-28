@@ -1,0 +1,9 @@
+package cn.edu.ccut.factory;
+
+import cn.edu.ccut.dao.IStudentDAO;
+import cn.edu.ccut.dao.impl.StudentDAOImpl;
+
+public class DAOFactory {
+	private static IStudentDAO dao = new StudentDAOImpl();
+	public DAOFactory() {}
+}

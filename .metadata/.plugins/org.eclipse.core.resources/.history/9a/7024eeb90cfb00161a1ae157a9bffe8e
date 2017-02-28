@@ -1,0 +1,21 @@
+package cn.edu.ccut.aop;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+
+//@Component("aspect")
+//@Aspect
+public class LogHandle {
+	/*@Pointcut("execution(public * cn.edu.ccut.service..*.*(..))")
+	public void method() {};*/
+	
+	//@Around("method()")
+	public Object doBasicProfiling(ProceedingJoinPoint pjp) throws Throwable {
+        // start stopwatch
+		System.out.println("method start...");
+        Object retVal = pjp.proceed();
+        // stop stopwatch
+        System.out.println("method end...");
+        return retVal;
+    }
+
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+
+	<context:annotation-config />
+	<context:component-scan base-package="cn.edu.ccut" />
+	<!-- <aop:aspectj-autoproxy proxy-target-class="true"/> -->
+	<!-- <tx:annotation-driven transaction-manager="txManager"/> -->
+
+	<!-- 构造dataSource，从jdbc.properties中获取数据源连接信息 -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath:jdbc.properties" />
+	</bean>
+
+	<bean id="dataSource" destroy-method="close" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
+	<!-- 构造sessionFactory，注入dataSource -->
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!-- <property name="annotatedClasses">
+			<list>
+				<value>cn.edu.ccut.vo.User</value>
+				<value>cn.edu.ccut.vo.Student</value>
+			</list>
+		</property> -->
+		<property name="packagesToScan">
+			<value>cn.edu.ccut.vo</value>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+            	<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+            	<prop key="hibernate.show_sql">true</prop>
+            	<prop key="hibernate.format_sql">true</prop>
+            	<prop key="hibernate.hbm2ddl.auto">update</prop>
+        	</props>
+		</property>
+	</bean>
+	
+	<!-- 构造hibernate的事务管理，注入sessionFactory -->
+	<bean id="txManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+    	<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+	<!-- 构造切面，设置切面类和切点 -->
+	<!-- <bean id="aop" class="cn.edu.ccut.aop.LogHandle"/>
+	
+	<aop:config proxy-target-class="true">
+		<aop:pointcut id="serviceaop" expression="execution(public * cn.edu.ccut.service..*.*(..))"/>
+		<aop:aspect id="handle" ref="aop">
+			<aop:around method="doBasicProfiling" pointcut-ref="serviceaop"/>
+		</aop:aspect>
+	</aop:config> -->
+	
+	<!-- 对指定切点进行事务管理 -->
+	<aop:config proxy-target-class="true">
+		<aop:pointcut id="serviceaop" expression="execution(public * cn.edu.ccut.service..*.*(..))"/>
+		<aop:advisor advice-ref="advice" pointcut-ref="serviceaop"/>
+	</aop:config>
+	
+	<tx:advice id="advice" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="insert" propagation="REQUIRED"/>
+		</tx:attributes>
+	</tx:advice>
+	
+	<bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+</beans>

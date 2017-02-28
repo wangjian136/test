@@ -1,0 +1,29 @@
+package cn.edu.ccut.dao.impl;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Component;
+
+import cn.edu.ccut.dao.IUserDAO;
+import cn.edu.ccut.po.User;
+
+@Component("dao")
+public class UserDAOImpl implements IUserDAO {
+	private HibernateTemplate hibernateTemplate;
+
+	public HibernateTemplate getHibernateTemplate() {
+		return hibernateTemplate;
+	}
+
+	public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+		this.hibernateTemplate = hibernateTemplate;
+	}
+
+	@Override
+	public boolean doLogin(User user) {
+		User loginUser = hibernateTemplate.get(User.class, user.getUsername());
+		if(loginUser != null) {
+			return true;
+		}
+		return false;
+	}
+}

@@ -1,0 +1,25 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+	request.setAttribute("path", request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath()+"/");
+%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>学生信息管理系统</title>
+		<base href="${requestScope.path}">
+		<link href="css/css.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	<div id="login">学生信息管理系统</div>
+		<div id="user"><img src="images/user.gif" width="107" height="97"></div>
+		<div id="line"><img src="images/line01.gif" width="5" height="292"></div>
+        <div id="form">
+        	<form action="login" method="post">
+        		<span class="login-text">用户名：</span><input type="text" name="user.username" id="username" class="init" required="required"/><br/>
+        		<span class="login-text">密&nbsp;码：</span><input type="password" name="user.password" id="password" class="init" required="required"/><br/>
+        		<input type="submit" class="button1" value="登陆"/>
+        		<input type="reset" class="button1" value="重置"/>
+        	</form>
+        </div>
+	</body>
+</html>

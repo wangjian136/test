@@ -1,0 +1,105 @@
+package cn.edu.ccut;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import static org.hamcrest.CoreMatchers.*;
+
+import cn.edu.ccut.factory.ServiceFactory;
+import cn.edu.ccut.vo.Student;
+
+public class StudentTest {
+	
+	@Test
+	public void testStudentAdd() {
+		Student vo = new Student();
+		vo.setId(663);
+		vo.setName("john");
+		vo.setSex("男");
+		vo.setAge(24);
+		vo.setTel("123456789556");
+		vo.setLoc("北京");
+		try {
+			System.out.println(ServiceFactory.getStudentService().insert(vo));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+
+	@Test
+	public void testStudentDelete() {
+		try {
+			System.out.println(ServiceFactory.getStudentService().delete(10));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testStudentUpdate() {
+		try {
+			Student vo = new Student();
+			vo.setId(15);
+			vo.setName("john");
+			vo.setSex("男");
+			vo.setAge(24);
+			vo.setTel("123456789556");
+			vo.setLoc("北京12");
+			System.out.println(ServiceFactory.getStudentService().update(vo));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/*@Test
+	public void testStudentFind() {
+		try {
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}*/
+	
+	@Test
+	public void testStudentListAll() {
+		try {
+			List<Student> list = ServiceFactory.getStudentService().listAll();
+			Iterator<Student> iterator = list.iterator();
+			while(iterator.hasNext()) {
+				System.out.println(iterator.next());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testStudentListPag() {
+		try {
+			List<Student> list = ServiceFactory.getStudentService().listAll(1, 10);
+			Iterator<Student> iterator = list.iterator();
+			while(iterator.hasNext()) {
+				System.out.println(iterator.next());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testStudentBanDelete() {
+		try {
+			Set<Integer> all = new HashSet<Integer>();
+			all.add(10);
+			all.add(12);
+			System.out.println(ServiceFactory.getStudentService().bantchDelete(all));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

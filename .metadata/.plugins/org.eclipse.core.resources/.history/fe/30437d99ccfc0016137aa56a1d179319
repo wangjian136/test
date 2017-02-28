@@ -1,0 +1,18 @@
+package cn.edu.ccut.test;
+
+import org.junit.Test;
+
+import cn.edu.ccut.po.User;
+import cn.edu.ccut.service.IUserService;
+
+public class UserLoginTest {
+	
+	@Test
+	public void testUserLogin() {
+		User user = new User();
+		user.setUsername("admin");
+		user.setPassword("admin");
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+	}
+
+}

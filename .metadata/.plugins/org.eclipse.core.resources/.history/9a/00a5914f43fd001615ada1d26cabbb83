@@ -1,0 +1,21 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+	request.setAttribute("path", request.getScheme() + "://" + request.getServerName() + ":"
+			+ request.getServerPort() + request.getContextPath() + "/");
+%>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>学生信息管理系统</title>
+		<base href="${requestScope.path}">
+	</head>
+
+	<body>
+		<div>
+			<img src="images/timg.jpg" height="500px" width="1136px" />
+		</div>
+		<div style="text-align: right;">版权所有©&nbsp;www.wangjian.com</div>
+	</body>
+
+</html>

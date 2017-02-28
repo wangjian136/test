@@ -1,0 +1,17 @@
+package cn.edu.ccut.dao.impl;
+
+import java.util.List;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import cn.edu.ccut.dao.IUserDAO;
+import cn.edu.ccut.po.User;
+
+public class UserDAOImpl implements IUserDAO {
+	private HibernateTemplate hibernateTemplate;
+
+	@Override
+	public void login(User user) {
+		List<User> list = hibernateTemplate.find("from User user where user.username=? and user.password=?", user.getUsername(),user.getPassword());
+	}
+}

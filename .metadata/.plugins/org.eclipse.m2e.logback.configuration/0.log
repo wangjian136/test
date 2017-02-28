@@ -1,0 +1,240 @@
+2017-01-09 17:10:26,352 [Worker-13] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2017-01-09 17:10:53,604 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.2/icefaces-1.7.2.jar
+2017-01-09 17:11:04,077 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.1/icefaces-1.7.1.jar
+2017-01-09 17:11:09,129 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.0/icefaces-1.7.0.jar
+2017-01-09 17:11:11,170 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.6.2/icefaces-1.6.2.jar
+2017-01-09 17:11:13,782 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.6.1/icefaces-1.6.1.jar
+2017-01-09 17:11:17,323 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icepush/icepush/2.0.2/icepush-2.0.2.jar
+2017-01-09 17:11:26,255 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.8.0/icefaces-comps-1.8.0.jar
+2017-01-09 17:11:29,131 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.2/icefaces-comps-1.7.2.jar
+2017-01-09 17:11:32,596 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.1/icefaces-comps-1.7.1.jar
+2017-01-09 17:11:34,621 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.0/icefaces-comps-1.7.0.jar
+2017-01-09 17:11:36,906 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.6.2/icefaces-comps-1.6.2.jar
+2017-01-09 17:11:41,079 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.6.1/icefaces-comps-1.6.1.jar
+2017-01-09 17:11:44,051 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.8.0/icefaces-facelets-1.8.0.jar
+2017-01-09 17:11:50,700 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.2/icefaces-facelets-1.7.2.jar
+2017-01-09 17:11:51,940 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.1/icefaces-facelets-1.7.1.jar
+2017-01-09 17:11:53,163 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.0/icefaces-facelets-1.7.0.jar
+2017-01-09 17:11:55,820 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.6.2/icefaces-facelets-1.6.2.jar
+2017-01-09 17:12:00,082 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.6.1/icefaces-facelets-1.6.1.jar
+2017-01-09 17:12:01,530 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/jexcelapi/jxl/2.6.8/jxl-2.6.8.jar
+2017-01-09 17:12:03,549 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-mobi/1.3.0/icefaces-mobi-1.3.0.jar
+2017-01-09 17:12:05,234 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icepush/icepush/3.0.0/icepush-3.0.0.jar
+2017-01-09 17:12:07,214 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.0.2/activation-1.0.2.jar
+2017-01-09 17:12:13,772 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/mail/1.3.1/mail-1.3.1.jar
+2017-01-09 17:12:15,777 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/namespace/1.0.1/namespace-1.0.1.jar
+2017-01-09 17:12:22,263 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/sql/jdbc-stdext/2.0/jdbc-stdext-2.0.jar
+2017-01-09 17:12:29,469 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/jts/jts/1.0/jts-1.0.jar
+2017-01-09 17:12:33,042 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/el-api/el-api/1.0/el-api-1.0.jar
+2017-01-09 17:12:38,446 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/el-ri/el-ri/1.0/el-ri-1.0.jar
+2017-01-09 17:12:43,038 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/faces/jsf-api/2.0.3/jsf-api-2.0.3.jar
+2017-01-09 17:12:48,238 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/faces/jsf-impl/2.0.3/jsf-impl-2.0.3.jar
+2017-01-09 17:12:54,423 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/cache/jbosscache-core/3.1.0/jbosscache-core-3.1.0.jar
+2017-01-09 17:13:05,512 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/resource/connector/1.0/connector-1.0.jar
+2017-01-09 17:13:07,237 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/security/jacc/1.0/jacc-1.0.jar
+2017-01-09 17:13:13,044 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/security/jaas/1.0.01/jaas-1.0.01.jar
+2017-01-09 17:13:16,669 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar
+2017-01-09 17:13:18,612 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javassist/javassist/3.9.0/javassist-3.9.0.jar
+2017-01-09 17:13:19,787 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate/3.3.2/hibernate-3.3.2.jar
+2017-01-09 17:13:20,926 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/persistence/javax.persistence/2.0.1/javax.persistence-2.0.1.jar
+2017-01-09 17:13:25,552 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink/2.1/eclipselink-2.1.jar
+2017-01-09 17:13:27,208 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink-jpa-modelgen/2.1/eclipselink-jpa-modelgen-2.1.jar
+2017-01-09 17:13:35,844 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink-jpa-modelgen/2.5.1/eclipselink-jpa-modelgen-2.5.1.jar
+2017-01-09 17:13:37,789 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jexcelapi/jxl/2.6.9/jxl-2.6.9.jar
+2017-01-09 17:13:44,554 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jamonapi/jamon/2.7/jamon-2.7.jar
+2017-01-09 17:13:46,850 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/easybeans/quartz/1.6.1/quartz-1.6.1.jar
+2017-01-09 17:13:50,579 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/javaconfig/spring-javaconfig/1.0.0.m4/spring-javaconfig-1.0.0.m4.jar
+2017-01-09 17:13:52,517 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jmx/jmxri/1.2.1/jmxri-1.2.1.jar
+2017-01-09 17:13:54,950 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/management/jmxremote/1.0.1_04/jmxremote-1.0.1_04.jar
+2017-01-09 17:13:58,742 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/management/jmxremote_optional/1.0.1_04/jmxremote_optional-1.0.1_04.jar
+2017-01-09 17:14:03,677 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/management/jmxri/1.2.1/jmxri-1.2.1.jar
+2017-01-09 17:14:06,008 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jdo/jdo/1.0.1/jdo-1.0.1.jar
+2017-01-09 17:14:08,062 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/bea/wlplatform/commonj-twm/1.1/commonj-twm-1.1.jar
+2017-01-09 17:14:10,490 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/toplink/toplink/10.1.3/toplink-10.1.3.jar
+2017-01-09 17:14:12,791 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/1.0/groovy-1.0.jar
+2017-01-09 17:14:15,199 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.core/3.0.5.RELEASE/org.springframework.security.core-3.0.5.RELEASE.jar
+2017-01-09 17:14:17,506 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.web/3.0.5.RELEASE/org.springframework.security.web-3.0.5.RELEASE.jar
+2017-01-09 17:14:19,107 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.config/3.0.5.RELEASE/org.springframework.security.config-3.0.5.RELEASE.jar
+2017-01-09 17:14:28,474 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.ldap/3.0.5.RELEASE/org.springframework.security.ldap-3.0.5.RELEASE.jar
+2017-01-09 17:14:34,418 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.taglibs/3.0.5.RELEASE/org.springframework.security.taglibs-3.0.5.RELEASE.jar
+2017-01-09 17:14:36,370 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/bea/commonj/com.springsource.commonj/1.1.0/com.springsource.commonj-1.1.0.jar
+2017-01-09 17:14:40,738 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/opensymphony/quartz/com.springsource.org.quartz/1.6.2/com.springsource.org.quartz-1.6.2.jar
+2017-01-09 17:14:42,321 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/jdo/jdo2-api/2.1.0/jdo2-api-2.1.0.jar
+2017-01-09 17:14:44,358 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/caucho/com.springsource.com.caucho/3.2.1/com.springsource.com.caucho-3.2.1.jar
+2017-01-09 17:14:49,299 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/jackson/com.springsource.org.codehaus.jackson.mapper/1.0.0/com.springsource.org.codehaus.jackson.mapper-1.0.0.jar
+2017-01-09 17:14:52,628 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/com.springsource.org.junit/4.7.0/com.springsource.org.junit-4.7.0.jar
+2017-01-09 17:14:54,321 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/inject/com.springsource.javax.inject/1.0.0/com.springsource.javax.inject-1.0.0.jar
+2017-01-09 17:14:56,497 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/com.springsource.org.apache.commons.lang/2.4.0/com.springsource.org.apache.commons.lang-2.4.0.jar
+2017-01-09 17:15:01,184 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jdmk/jmxtools/1.2.1/jmxtools-1.2.1.jar
+2017-01-09 17:15:03,652 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.6.8.RELEASE/aspectjweaver-1.6.8.RELEASE.jar
+2017-01-09 17:15:09,045 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/guice/guice/2.0/guice-2.0.jar
+2017-01-09 17:15:10,243 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jdo/jdori/1.0.1/jdori-1.0.1.jar
+2017-01-09 17:15:12,439 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/jws/jsr181/1.0/jsr181-1.0.jar
+2017-01-09 17:15:13,949 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/jaxr-api/1.0_03/jaxr-api-1.0_03.jar
+2017-01-09 17:15:15,089 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/persistence/eclipselink/1.0.2/eclipselink-1.0.2.jar
+2017-01-09 17:15:16,350 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/persistence/javax.persistence/1.0.0/javax.persistence-1.0.0.jar
+2017-01-09 17:15:21,428 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/jms/jms/1.1/jms-1.1.jar
+2017-01-09 17:15:25,300 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/pluto-taglib/1.0.1/pluto-taglib-1.0.1.jar
+2017-01-09 17:15:27,458 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/pluto-taglib/2.0/pluto-taglib-2.0.jar
+2017-01-09 17:15:32,632 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.2.0/chartengineapi-2.2.0.jar
+2017-01-09 17:15:33,813 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.2.0/coreapi-2.2.0.jar
+2017-01-09 17:15:35,567 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.2.0/dataadapterapi-2.2.0.jar
+2017-01-09 17:15:37,704 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.2.0/dteapi-2.2.0.jar
+2017-01-09 17:15:44,047 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.2.0/engineapi-2.2.0.jar
+2017-01-09 17:15:45,638 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.2.0/modelapi-2.2.0.jar
+2017-01-09 17:15:47,154 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.2.0/scriptapi-2.2.0.jar
+2017-01-09 17:15:51,258 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.2.0/viewservlets-2.2.0.jar
+2017-01-09 17:15:52,665 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/flute/1.0/flute-1.0.jar
+2017-01-09 17:15:55,130 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.common/2.2.1/org.eclipse.emf.common-2.2.1.jar
+2017-01-09 17:15:56,368 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore/2.2.2/org.eclipse.emf.ecore-2.2.2.jar
+2017-01-09 17:16:00,431 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore.xmi/2.2.2/org.eclipse.emf.ecore.xmi-2.2.2.jar
+2017-01-09 17:16:01,856 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.3.0/chartengineapi-2.3.0.jar
+2017-01-09 17:16:04,250 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.3.0/coreapi-2.3.0.jar
+2017-01-09 17:16:07,054 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.3.0/dataadapterapi-2.3.0.jar
+2017-01-09 17:16:08,217 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.3.0/dteapi-2.3.0.jar
+2017-01-09 17:16:10,514 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.3.0/engineapi-2.3.0.jar
+2017-01-09 17:16:12,148 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.3.0/modelapi-2.3.0.jar
+2017-01-09 17:16:16,843 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.3.0/scriptapi-2.3.0.jar
+2017-01-09 17:16:18,501 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.3.0/viewservlets-2.3.0.jar
+2017-01-09 17:16:20,127 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/crosstabcoreapi/2.3.0/crosstabcoreapi-2.3.0.jar
+2017-01-09 17:16:24,344 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataaggregationapi/2.3.0/dataaggregationapi-2.3.0.jar
+2017-01-09 17:16:26,478 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelodaapi/2.3.0/modelodaapi-2.3.0.jar
+2017-01-09 17:16:27,614 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/odadesignapi/2.3.0/odadesignapi-2.3.0.jar
+2017-01-09 17:16:28,742 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataextraction/2.3.0/dataextraction-2.3.0.jar
+2017-01-09 17:16:33,322 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.common/2.4.0/org.eclipse.emf.common-2.4.0.jar
+2017-01-09 17:16:34,801 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore/2.4.0/org.eclipse.emf.ecore-2.4.0.jar
+2017-01-09 17:16:37,602 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore.xmi/2.4.0/org.eclipse.emf.ecore.xmi-2.4.0.jar
+2017-01-09 17:16:40,286 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.5.0/chartengineapi-2.5.0.jar
+2017-01-09 17:16:43,495 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/chartitemapi/2.5.0/chartitemapi-2.5.0.jar
+2017-01-09 17:16:45,422 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.5.0/coreapi-2.5.0.jar
+2017-01-09 17:16:48,321 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.5.0/dataadapterapi-2.5.0.jar
+2017-01-09 17:16:51,268 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.5.0/dteapi-2.5.0.jar
+2017-01-09 17:16:53,035 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.5.0/engineapi-2.5.0.jar
+2017-01-09 17:16:56,222 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.5.0/modelapi-2.5.0.jar
+2017-01-09 17:17:01,750 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.5.0/scriptapi-2.5.0.jar
+2017-01-09 17:17:06,979 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.5.0/viewservlets-2.5.0.jar
+2017-01-09 17:17:09,384 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/crosstabcoreapi/2.5.0/crosstabcoreapi-2.5.0.jar
+2017-01-09 17:17:11,137 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataaggregationapi/2.5.0/dataaggregationapi-2.5.0.jar
+2017-01-09 17:17:13,211 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelodaapi/2.5.0/modelodaapi-2.5.0.jar
+2017-01-09 17:17:15,537 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/odadesignapi/2.5.0/odadesignapi-2.5.0.jar
+2017-01-09 17:17:22,115 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataextraction/2.5.0/dataextraction-2.5.0.jar
+2017-01-09 17:17:25,442 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/emitterconfig/2.5.0/emitterconfig-2.5.0.jar
+2017-01-09 17:17:26,871 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/chartengineapi/2.5.2/chartengineapi-2.5.2.jar
+2017-01-09 17:17:28,858 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/chartitemapi/2.5.2/chartitemapi-2.5.2.jar
+2017-01-09 17:17:31,050 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/coreapi/2.5.2/coreapi-2.5.2.jar
+2017-01-09 17:17:32,544 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataadapterapi/2.5.2/dataadapterapi-2.5.2.jar
+2017-01-09 17:17:34,051 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dteapi/2.5.2/dteapi-2.5.2.jar
+2017-01-09 17:17:35,994 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/engineapi/2.5.2/engineapi-2.5.2.jar
+2017-01-09 17:17:41,501 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelapi/2.5.2/modelapi-2.5.2.jar
+2017-01-09 17:17:44,456 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/scriptapi/2.5.2/scriptapi-2.5.2.jar
+2017-01-09 17:17:46,181 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/viewservlets/2.5.2/viewservlets-2.5.2.jar
+2017-01-09 17:17:47,596 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/crosstabcoreapi/2.5.2/crosstabcoreapi-2.5.2.jar
+2017-01-09 17:17:49,949 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataaggregationapi/2.5.2/dataaggregationapi-2.5.2.jar
+2017-01-09 17:17:51,142 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/modelodaapi/2.5.2/modelodaapi-2.5.2.jar
+2017-01-09 17:17:52,828 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/odadesignapi/2.5.2/odadesignapi-2.5.2.jar
+2017-01-09 17:17:54,040 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/dataextraction/2.5.2/dataextraction-2.5.2.jar
+2017-01-09 17:17:59,231 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse-reports/emitterconfig/2.5.2/emitterconfig-2.5.2.jar
+2017-01-09 17:18:00,801 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.common/2.5.0/org.eclipse.emf.common-2.5.0.jar
+2017-01-09 17:18:03,242 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore/2.5.0/org.eclipse.emf.ecore-2.5.0.jar
+2017-01-09 17:18:04,640 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/myeclipse/org.eclipse.emf.ecore.xmi/2.5.0/org.eclipse.emf.ecore.xmi-2.5.0.jar
+2017-01-09 17:18:07,463 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-multipart/1.0.3.1/jersey-multipart-1.0.3.1.jar
+2017-01-09 17:18:08,842 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-multipart/1.4/jersey-multipart-1.4.jar
+2017-01-09 17:18:12,062 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/webservices-extra/1.1/webservices-extra-1.1.jar
+2017-01-09 17:18:15,054 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/webservices-rt/1.1/webservices-rt-1.1.jar
+2017-01-09 17:18:16,561 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/primefaces/primefaces/2.1/primefaces-2.1.jar
+2017-01-09 17:18:19,096 [Worker-5] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated local repository index
+2017-01-09 17:38:02,755 [Worker-13] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|https://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.6.0.me201603161722.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.6.0.me201603161722.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.6.0.me201603161722.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.6.0.me201603161722.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.6.0.me201603161722.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2017-02-05 19:01:37,506 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-05 19:04:52,153 [Worker-6] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-05 19:04:52,258 [Worker-6] INFO  org.eclipse.jetty.util.log - Logging initialized @711629ms
+2017-02-10 07:46:20,933 [Worker-2] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-10 07:46:28,880 [Worker-2] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-10 07:46:28,990 [Worker-2] INFO  org.eclipse.jetty.util.log - Logging initialized @535975ms
+2017-02-10 14:38:24,585 [Worker-9] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-10 14:38:27,961 [Worker-9] INFO  org.eclipse.jetty.util.log - Logging initialized @4004649ms
+2017-02-10 14:38:28,554 [Worker-9] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-10 19:09:15,650 [Worker-1] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-10 19:09:19,197 [Worker-1] INFO  org.eclipse.jetty.util.log - Logging initialized @416328ms
+2017-02-10 19:09:20,838 [Worker-1] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-11 07:36:39,027 [Worker-5] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-11 07:36:43,887 [Worker-5] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-11 07:36:44,497 [Worker-5] INFO  org.eclipse.jetty.util.log - Logging initialized @700704ms
+2017-02-12 10:00:27,537 [Worker-10] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-12 10:00:31,648 [Worker-10] INFO  org.eclipse.jetty.util.log - Logging initialized @89115ms
+2017-02-12 10:07:25,830 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-12 14:26:27,547 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-12 14:26:30,922 [Worker-4] INFO  org.eclipse.jetty.util.log - Logging initialized @52134ms
+2017-02-12 14:49:40,970 [Worker-5] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-13 07:44:03,276 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-13 07:44:09,543 [Worker-7] INFO  org.eclipse.jetty.util.log - Logging initialized @71658ms
+2017-02-13 08:23:15,648 [Worker-18] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-14 13:31:11,100 [Worker-57] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-14 13:31:18,647 [Worker-57] INFO  org.eclipse.jetty.util.log - Logging initialized @14093627ms
+2017-02-14 13:31:20,375 [Worker-57] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-14 13:31:21,808 [Worker-57] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2017-02-14 14:34:47,155 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @121830ms
+2017-02-14 14:34:50,503 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-02-14 14:34:50,604 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@11ee796{/help,null,AVAILABLE}
+2017-02-14 14:34:50,620 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@b859a8{HTTP/1.1}{127.0.0.1:65294}
+2017-02-14 14:34:50,620 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @125297ms
+2017-02-14 14:41:45,659 [Worker-2] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-14 14:41:45,781 [Worker-2] INFO  org.eclipse.jetty.util.log - Logging initialized @540453ms
+2017-02-14 16:41:37,356 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@b859a8{HTTP/1.1}{127.0.0.1:0}
+2017-02-14 16:41:37,559 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@11ee796{/help,null,UNAVAILABLE}
+2017-02-16 07:55:10,187 [Worker-15] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-16 07:55:14,285 [Worker-15] INFO  org.eclipse.jetty.util.log - Logging initialized @1482544ms
+2017-02-16 08:12:04,942 [Worker-21] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-16 08:12:05,309 [Worker-21] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2017-02-16 15:40:42,468 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-16 15:40:46,789 [Worker-3] INFO  org.eclipse.jetty.util.log - Logging initialized @59917ms
+2017-02-16 20:07:23,845 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-16 20:07:27,449 [Worker-0] INFO  org.eclipse.jetty.util.log - Logging initialized @278360ms
+2017-02-16 20:07:28,418 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-17 07:22:10,400 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-17 07:22:13,416 [Worker-0] INFO  org.eclipse.jetty.util.log - Logging initialized @77928ms
+2017-02-18 13:34:33,682 [Worker-54] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-18 13:34:37,798 [Worker-54] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-18 13:34:37,934 [Worker-54] INFO  org.eclipse.jetty.util.log - Logging initialized @11024397ms
+2017-02-21 16:18:37,385 [Worker-85] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-21 16:18:45,386 [Worker-85] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-21 16:18:45,667 [Worker-85] INFO  org.eclipse.jetty.util.log - Logging initialized @33415090ms
+2017-02-22 06:55:12,895 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-22 06:55:18,911 [Worker-7] INFO  org.eclipse.jetty.util.log - Logging initialized @122711ms
+2017-02-23 09:30:27,125 [Worker-8] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-23 09:30:30,845 [Worker-8] INFO  org.eclipse.jetty.util.log - Logging initialized @5389274ms
+2017-02-23 09:30:32,484 [Worker-8] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-25 08:59:01,996 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @5959999ms
+2017-02-25 08:59:09,451 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-02-25 08:59:09,571 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@9cb4cb{/help,null,AVAILABLE}
+2017-02-25 08:59:09,613 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@16bcc70{HTTP/1.1}{127.0.0.1:60895}
+2017-02-25 08:59:09,613 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @5967642ms
+2017-02-25 14:43:13,198 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@16bcc70{HTTP/1.1}{127.0.0.1:0}
+2017-02-25 14:43:13,245 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@9cb4cb{/help,null,UNAVAILABLE}
+2017-02-25 16:38:51,450 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @2329129ms
+2017-02-25 16:38:58,296 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-02-25 16:38:58,376 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@9606fc{/help,null,AVAILABLE}
+2017-02-25 16:38:58,432 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1a39b7d{HTTP/1.1}{127.0.0.1:64979}
+2017-02-25 16:38:58,432 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @2336115ms
+2017-02-25 19:07:23,506 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1a39b7d{HTTP/1.1}{127.0.0.1:0}
+2017-02-25 19:07:23,537 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@9606fc{/help,null,UNAVAILABLE}
+2017-02-26 20:55:42,790 [Worker-23] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-26 20:55:47,482 [Worker-23] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-26 20:55:47,717 [Worker-23] INFO  org.eclipse.jetty.util.log - Logging initialized @8492283ms
+2017-02-27 14:30:21,677 [Worker-8] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-27 14:30:25,489 [Worker-8] INFO  org.eclipse.jetty.util.log - Logging initialized @1795654ms
+2017-02-27 14:30:26,724 [Worker-8] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2017-02-27 18:22:30,651 [Worker-48] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2017-02-28 07:26:13,178 [Worker-2] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2017-02-28 07:26:16,598 [Worker-2] INFO  org.eclipse.jetty.util.log - Logging initialized @847380ms
+2017-02-28 07:26:18,161 [Worker-2] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\MyEclipseWorkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store

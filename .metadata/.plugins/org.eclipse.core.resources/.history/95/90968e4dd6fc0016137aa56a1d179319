@@ -1,0 +1,107 @@
+#login {
+	font-size: 36px;
+	color: #009999;
+	font-family: "方正舒体";
+	height: 147px;
+	text-align: center;
+	background-image: url(../images/top01.gif);
+	line-height: 140px;
+}
+#user {
+	border-left-width: 450px;
+	border-left-style: solid;
+	border-left-color: white;
+	float: left;
+	height: 292px;
+	padding-top: 100px;
+}
+
+#form {
+	float: left;
+	height: 292px;
+	padding-top: 120px;
+	text-align: center;
+}
+
+#line {
+	float: left;
+	width: 40px;
+	padding-left: 40px;
+}
+
+#top {
+	height: 59px;
+	background-image: url(../images/top02.gif);
+}
+
+#left {
+	float: left;
+	width: 213px;
+}
+
+#main {
+	float: left;
+	width: 1120px;
+}
+
+#font-style {
+	font-size: 36px;
+	color: #009999;
+	font-family: "方正舒体";
+}
+
+#left-user {
+	width=: 207px;
+	height=: 55px;
+	background-image: url(../images/nav01.gif);
+}
+
+#left-font01 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #448CCB;
+	float: left;
+	text-decoration: none;
+}
+
+#left-font03 {
+	font-size: 15px;
+	color: #448CCB;
+}
+
+.button1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #174B73;
+	height: 20px;
+	width: 63px;
+	background-image: url(../images/button1.gif);
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.login-text{
+	font-family: "宋体";
+	font-size: 20px;
+	color: #7F9DB9;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 4px;
+}
+
+.left-font02 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #448CCB;
+	text-decoration: none;
+	filter: DropShadow(Color=#FFFFFF, OffX=1, OffY=1);
+}
+
+.init {
+	background: #f5f5f5;
+	font-weight: bold;
+	color: #000000;
+}

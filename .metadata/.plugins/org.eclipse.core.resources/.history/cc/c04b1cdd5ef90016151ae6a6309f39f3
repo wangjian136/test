@@ -1,0 +1,12 @@
+package cn.edu.ccut.factory;
+
+import org.hibernate.Session;
+
+import cn.edu.ccut.dao.IStudentDAO;
+import cn.edu.ccut.dao.impl.StudentDAOImpl;
+
+public class DAOFactory {
+	public static IStudentDAO getStudentDAO() {
+		return new StudentDAOImpl();
+	}
+}

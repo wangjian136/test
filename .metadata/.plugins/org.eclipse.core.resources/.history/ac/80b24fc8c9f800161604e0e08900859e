@@ -1,0 +1,7 @@
+package cn.edu.ccut.dao;
+
+import cn.edu.ccut.vo.Student;
+
+public interface IStudentDAO {
+	public boolean doCreate(Student vo) throws Exception;
+}

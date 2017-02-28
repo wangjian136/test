@@ -1,0 +1,47 @@
+package cn.edu.ccut.action;
+
+import java.util.List;
+
+import org.apache.struts2.convention.annotation.Action;
+import org.apache.struts2.convention.annotation.Result;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+import cn.edu.ccut.factory.ServiceFactory;
+import cn.edu.ccut.service.IStudentService;
+import cn.edu.ccut.po.Student;
+
+@SuppressWarnings("serial")
+@Action(value="/index",results={@Result(name={"success"},
+location="/admin/list/first.jsp")})
+public class ListAction extends ActionSupport {
+	private int currentPage;
+	private IStudentService studentService;
+	private List<Student> all;
+	@Override
+	public String execute() {
+		if (currentPage == 0 || "".equals(currentPage)) {
+			currentPage = 1;
+		}
+		if (currentPage <= 0) {
+			currentPage = 1;
+		}
+		all = ServiceFactory.getStudentService().listAll(currentPage, 10);
+		return "success";
+	}
+	public int getCurrentPage() {
+		return currentPage;
+	}
+	
+	public void setCurrentPage(int currentPage) {
+		this.currentPage = currentPage;
+	}
+	
+	public List<Student> getAll() {
+		return all;
+	}
+	
+	public void setAll(List<Student> all) {
+		this.all = all;
+	}
+}

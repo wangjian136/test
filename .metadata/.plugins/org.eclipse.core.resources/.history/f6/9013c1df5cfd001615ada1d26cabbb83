@@ -1,0 +1,43 @@
+package cn.edu.ccut.dao.impl;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Component;
+
+import cn.edu.ccut.dao.IStudentDAO;
+import cn.edu.ccut.po.Student;
+
+@Component("studentDao")
+public class StudentDAOImpl implements IStudentDAO {
+	private HibernateTemplate hibernateTemplate;
+
+	public HibernateTemplate getHibernateTemplate() {
+		return hibernateTemplate;
+	}
+
+	@Resource
+	public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+		this.hibernateTemplate = hibernateTemplate;
+	}
+
+	@Override
+	public List<Student> findAll() {
+		List<Student> all = hibernateTemplate.loadAll(Student.class);
+		return all;
+	}
+
+	@Override
+	public List<Student> findAll( Student student, Integer currentPage, Integer lineSize) {
+		List<Student> all = hibernateTemplate.findByExample(student, (currentPage-1)*lineSize, lineSize);
+		return all;
+	}
+
+	@Override
+	public void doCreate() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,28 @@
+package cn.edu.ccut;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
+
+import cn.edu.ccut.factory.ServiceFactory;
+
+public class UserLoginTest {
+	
+	@Test
+	public void testUserLogin() {
+		/*Student vo = new Student();
+		vo.setId(345);
+		vo.setName("john");
+		vo.setSex("男");
+		vo.setAge(24);
+		vo.setTel("123456789556");
+		vo.setLoc("北京");*/
+		try {
+			System.out.println(ServiceFactory.getStudentService().login("admin", "admin"));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}

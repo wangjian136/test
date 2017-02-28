@@ -1,0 +1,12 @@
+package cn.edu.ccut.dao.impl;
+
+import cn.edu.ccut.dao.IUserDAO;
+import cn.edu.ccut.po.User;
+
+public class UserDAOImpl implements IUserDAO {
+
+	@Override
+	public void login(User user) {
+		
+	}
+}

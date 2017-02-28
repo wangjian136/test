@@ -1,0 +1,39 @@
+package cn.edu.ccut.action;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.apache.struts2.convention.annotation.Action;
+import org.apache.struts2.convention.annotation.Result;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+import cn.edu.ccut.factory.ServiceFactory;
+
+@SuppressWarnings("serial")
+public class DeleteAction extends ActionSupport {
+	private String [] ids;
+	@Override
+	@Action(value="/banDelete",results={@Result(name={"success"},
+	location="index?currentPage=1",type="chain"),@Result(name={"fail"},
+	location="index?currentPage=1",type="chain")})
+	public String execute() {
+		Set<Integer> all = new HashSet<Integer>();
+		for (int i = 0; i < ids.length; i++) {
+			all.add(Integer.parseInt(ids[i]));
+		}
+		if (ServiceFactory.getStudentService().bantchDelete(all)) {
+			return "success";
+		} else {
+			return "fail";
+		}
+	}
+	
+	public String[] getIds() {
+		return ids;
+	}
+	
+	public void setIds(String[] ids) {
+		this.ids = ids;
+	}
+}

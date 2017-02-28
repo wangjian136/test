@@ -1,0 +1,37 @@
+package cn.edu.ccut.service.impl;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Component;
+
+import cn.edu.ccut.dao.IStudentDAO;
+import cn.edu.ccut.po.Student;
+import cn.edu.ccut.service.IStudentService;
+
+@Component("studentService")
+public class StudentService implements IStudentService{
+	private IStudentDAO studentDAO;
+
+	public IStudentDAO getStudentDAO() {
+		return studentDAO;
+	}
+
+	@Resource
+	public void setStudentDAO(IStudentDAO studentDAO) {
+		this.studentDAO = studentDAO;
+	}
+
+	@Override
+	public List<Student> listAll() {
+		return studentDAO.findAll();
+	}
+
+	@Override
+	public List<Student> listAll(Integer currentPage, Integer lineSize) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

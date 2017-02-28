@@ -1,0 +1,19 @@
+package cn.edu.ccut.aop;
+
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Component("point")
+@Aspect
+public class LogHandle {
+	@Pointcut("execution(public * cn.edu.ccut.service..*.*(..))")
+	public void method() {};
+	
+	@Around("method")
+	public void start() {
+		System.out.println("method start...");
+	}
+
+}

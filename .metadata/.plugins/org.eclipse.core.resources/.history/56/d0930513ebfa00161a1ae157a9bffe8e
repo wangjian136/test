@@ -1,0 +1,25 @@
+package cn.edu.ccut.aop;
+
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Component("point")
+@Aspect
+public class LogHandle {
+	@Pointcut("execution(public * cn.edu.ccut.service..*.*(..))")
+	public void method() {};
+	
+	@Before("execution(public * cn.edu.ccut.service..*.*(..))")
+	public void startSave() {
+		System.out.println("start save...");
+	}
+	
+	@After("execution(public boolean cn.edu.ccut.service.impl.StudentServiceImpl.insert(cn.edu.ccut.vo.Student))")
+	public void endSave() {
+		System.out.println("end save...");
+	}
+
+}

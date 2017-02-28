@@ -1,0 +1,26 @@
+package cn.edu.ccut.test;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cn.edu.ccut.po.Student;
+import cn.edu.ccut.service.IStudentService;
+import cn.edu.ccut.service.impl.StudentService;
+
+public class StudentTest {
+	
+	@Test
+	public void testStudentList() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		IStudentService service = context.getBean("studentService",StudentService.class);
+		List<Student> all = service.listAll(new Student(),1, 5);
+		Iterator<Student> iterator = all.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+}

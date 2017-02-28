@@ -1,0 +1,11 @@
+package cn.edu.ccut.dao;
+
+import java.util.List;
+
+import cn.edu.ccut.po.Student;
+
+public interface IStudentDAO {
+	public List<Student> findAll();
+	public List<Student> findAll(Student student, Integer currentPage, Integer lineSize);
+	public void doCreate(Student student);
+}

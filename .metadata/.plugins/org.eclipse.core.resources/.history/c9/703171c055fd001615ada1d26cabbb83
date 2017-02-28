@@ -1,0 +1,72 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib uri="/struts-tags" prefix="s"%>
+<%
+	request.setAttribute("path", request.getScheme() + "://" + request.getServerName() + ":"
+			+ request.getServerPort() + request.getContextPath() + "/");
+%>
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>学生信息管理系统</title>
+<script type="text/javascript" src="js/student.js"></script>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<base href="${requestScope.path}">
+</head>
+
+<body>
+	<div>
+		<h1 style="text-align: center;">学生信息管理</h1>
+		<form action="banDelete" method="post"
+			onsubmit="return banchConfirm('id')">
+			<table border="1" style="width:1120px;">
+				<tr>
+					<td><input type="checkbox" id="allStudent"
+						onclick="selectAll('allStudent','id')">全选</td>
+					<th>学号</th>
+					<th>姓名</th>
+					<th>性别</th>
+					<th>年龄</th>
+					<th>电话</th>
+					<th>住址</th>
+					<th colspan="2">操作</th>
+				</tr>
+				<s:iterator value="all" var="obj" end="9">
+					<tr>
+						<td><input type="checkbox" id="id" name="ids"
+							value="${obj.id}"></td>
+						<td>${obj.id}</td>
+						<td>${obj.name}</td>
+						<td>${obj.sex}</td>
+						<td>${obj.age}</td>
+						<td>${obj.tel}</td>
+						<td>${obj.loc}</td>
+						<td><a
+							href="admin/list/updateStudent.jsp?id=${obj.id}&name=${obj.name}&sex=${obj.sex}&age=${obj.age}&tel=${obj.tel}&loc=${obj.loc}">修改</a>
+						</td>
+						<td><a href="delete?id=${obj.id}" onclick="return fun();">删除</a>
+						</td>
+					</tr>
+				</s:iterator>
+			</table>
+			<div style="float:left">
+				<a href=<s:if test="%{true}">"list?currentPage=1"</s:if>>首页</a>&nbsp;&nbsp; 
+				<a href="list?currentPage=${currentPage-1}">上一页</a>&nbsp;&nbsp; 
+				<a href="list?currentPage=${currentPage+1}">下一页</a>&nbsp;&nbsp;
+				<a href="list?currentPage=${totalPage}">尾页</a>
+				<s:debug></s:debug>
+			</div>
+			<div style="float:right">
+				<input type="submit" value="批量删除" />
+			</div>
+		</form>
+		<div style="float:left">
+			<form action="list" method="post">
+				<input type="text" name="currentPage" maxlength="2" size="2">
+				<input type="submit" value="GO">当前页码：${currentPage }
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

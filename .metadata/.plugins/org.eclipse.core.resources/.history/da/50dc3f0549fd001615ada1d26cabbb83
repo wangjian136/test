@@ -1,0 +1,19 @@
+package cn.edu.ccut.test;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cn.edu.ccut.service.IStudentService;
+import cn.edu.ccut.service.IUserService;
+import cn.edu.ccut.service.impl.UserService;
+
+public class StudentTest {
+	
+	@Test
+	public void testUserLogin() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		IStudentService service = context.getBean("studentService",StudentService.class);
+		System.out.println(service.login(user));
+	}
+}

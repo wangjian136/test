@@ -1,0 +1,14 @@
+<classpath>
+  <container id="Struts2_0100!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/MyEclipseWorkspace/Struts2_0100/WebRoot/WEB-INF/lib/struts2-core-2.5.8.jar">
+      <source-attachment-path>E:/开发包/struts-2.5.8-all/struts-2.5.8/src/core/src/main/java</source-attachment-path>
+      <attribute name="javadoc_location">file:/E:/开发包/struts-2.5.8-all/struts-2.5.8/docs/struts2-core-apidocs/</attribute>
+    </entry>
+  </container>
+  <container id="Struts2Project!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/MyEclipseWorkspace/Struts2Project/WebRoot/WEB-INF/lib/struts2-core-2.5.8.jar">
+      <source-attachment-path>E:/Development_package/struts-2.5.8-all/struts-2.5.8/src/core/src/main/java</source-attachment-path>
+      <attribute name="javadoc_location">file:/E:/Development_package/struts-2.5.8-all/struts-2.5.8/docs/struts2-core-apidocs/</attribute>
+    </entry>
+  </container>
+</classpath>

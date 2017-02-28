@@ -1,0 +1,54 @@
+package cn.edu.ccut.service.impl;
+
+import java.util.List;
+import java.util.Set;
+
+import cn.edu.ccut.factory.DAOFactory;
+import cn.edu.ccut.service.IStudentService;
+import cn.edu.ccut.vo.Student;
+
+public class StudentServiceImpl implements IStudentService {
+	
+	public StudentServiceImpl() {
+	}
+
+	@Override
+	public boolean insert(Student vo) throws Exception {
+		try {
+			return DAOFactory.getStudentDAO().doCreate(vo);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public List<Student> listAll() throws Exception {
+		return DAOFactory.getStudentDAO().doListAll();
+	}
+
+	@Override
+	public boolean login(String username, String password) throws Exception {
+		return DAOFactory.getStudentDAO().doLogin(username, password);
+	}
+
+	@Override
+	public List<Student> listAll(int currentPage, int lineSize) throws Exception {
+		return DAOFactory.getStudentDAO().doListAll(currentPage, lineSize);
+	}
+
+	@Override
+	public boolean delete(int id) throws Exception {
+		return DAOFactory.getStudentDAO().doRemove(id);
+	}
+
+	@Override
+	public boolean update(Student vo) throws Exception {
+		return DAOFactory.getStudentDAO().doUpdate(vo);
+	}
+
+	@Override
+	public boolean bantchDelete(Set<Integer> all) throws Exception {
+		return DAOFactory.getStudentDAO().doBantchRemove(all);
+	}
+}

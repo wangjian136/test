@@ -1,0 +1,34 @@
+package cn.edu.ccut;
+
+import java.lang.reflect.Proxy;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cn.edu.ccut.factory.DAOFactory;
+import cn.edu.ccut.proxy.Handle;
+import cn.edu.ccut.service.IStudentService;
+import cn.edu.ccut.service.impl.StudentServiceImpl;
+import cn.edu.ccut.vo.Student;
+
+public class SpringTest {
+	
+	@Test
+	public void testUserSave() {
+		//BeanFactory context = new ClassPathXmlApplicationContext("beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		IStudentService service = context.getBean("service", StudentServiceImpl.class);
+		Student vo = new Student();
+		service.insert(vo);
+	}
+	
+	@Test
+	public void testUserSaveProxy() {
+		Student vo = new Student();
+		IStudentService target = new StudentServiceImpl(DAOFactory.createStudentDAO());
+		Handle handle = new Handle(target);
+		IStudentService proxy = (IStudentService)Proxy.newProxyInstance(handle.getClass().getClassLoader(), target.getClass().getInterfaces(), handle);
+		proxy.insert(vo);
+	}
+}

@@ -1,0 +1,29 @@
+package cn.edu.ccut.service.impl;
+
+import java.beans.ConstructorProperties;
+
+import cn.edu.ccut.dao.IStudentDAO;
+import cn.edu.ccut.service.IStudentService;
+import cn.edu.ccut.vo.Student;
+
+public class StudentServiceImpl implements IStudentService {
+	private IStudentDAO dao;
+	
+	@ConstructorProperties({"dao"})
+	public StudentServiceImpl(IStudentDAO dao) {
+		this.dao = dao;
+	}
+
+	public IStudentDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(IStudentDAO dao) {
+		this.dao = dao;
+	}
+
+	@Override
+	public boolean insert(Student vo){
+		return dao.doCreate(vo);
+	}
+}

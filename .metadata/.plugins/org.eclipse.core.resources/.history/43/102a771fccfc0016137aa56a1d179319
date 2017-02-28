@@ -1,0 +1,12 @@
+package cn.edu.ccut.test;
+
+import org.junit.Test;
+
+public class UserLoginTest {
+	
+	@Test
+	public void testUserLogin() {
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package cn.edu.ccut.util;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+public class HibernateUtil {
+	private static final SessionFactory sessionFactory = setSessionFactory();
+	
+	private static SessionFactory setSessionFactory() {
+		StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
+		try {
+			return new MetadataSources( registry ).buildMetadata().buildSessionFactory();
+		}
+		catch (Exception e) {
+			StandardServiceRegistryBuilder.destroy( registry );
+			System.err.println("Initial SessionFactory creation failed." + e);
+			throw e;
+		}
+	}
+	
+	/*public static SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}*/
+	
+	public static Session getSession() {
+		//return sessionFactory.openSession();
+		return sessionFactory.getCurrentSession()；
+	}
+	
+	/*public static void closeSession() {
+		if(sessionFactory.getCurrentSession() != null) {
+			sessionFactory.getCurrentSession().close();
+		}
+	}*/
+}

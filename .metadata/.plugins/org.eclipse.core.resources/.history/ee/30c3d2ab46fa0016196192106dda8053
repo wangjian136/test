@@ -1,0 +1,17 @@
+package cn.edu.ccut.aop;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class LogHandle {
+	
+	public void startSave() {
+		System.out.println("start save...");
+	}
+	
+	public void endSave() {
+		System.out.println("end save...");
+	}
+
+}

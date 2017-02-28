@@ -1,0 +1,7 @@
+package cn.edu.ccut.dao;
+
+import cn.edu.ccut.po.User;
+
+public interface IStudentDAO {
+	public void findAll();
+}

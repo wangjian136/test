@@ -1,0 +1,77 @@
+package cn.edu.ccut;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import static org.hamcrest.CoreMatchers.*;
+
+import cn.edu.ccut.factory.ServiceFactory;
+import cn.edu.ccut.vo.Student;
+
+public class StudentTest {
+	
+	@Test
+	public void testStudentAdd() {
+		Student vo = new Student();
+		vo.setId(663);
+		vo.setName("john");
+		vo.setSex("男");
+		vo.setAge(24);
+		vo.setTel("123456789556");
+		vo.setLoc("北京");
+		System.out.println(ServiceFactory.getStudentService().insert(vo));
+	}
+	
+
+	@Test
+	public void testStudentDelete() {
+		System.out.println(ServiceFactory.getStudentService().delete(14));
+	}
+	
+	@Test
+	public void testStudentUpdate() {
+		Student vo = new Student();
+		vo.setId(15);
+		vo.setName("john");
+		vo.setSex("男");
+		vo.setAge(24);
+		vo.setTel("123456789556");
+		vo.setLoc("北京12");
+		System.out.println(ServiceFactory.getStudentService().update(vo));
+	}
+	
+	/*@Test
+	public void testStudentFind() {
+	}*/
+	
+	@Test
+	public void testStudentListAll() {
+		List<Student> list = ServiceFactory.getStudentService().listAll();
+		Iterator<Student> iterator = list.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+	
+	@Test
+	public void testStudentListPag() {
+		List<Student> list = ServiceFactory.getStudentService().listAll(1, 10);
+		Iterator<Student> iterator = list.iterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+	
+	@Test
+	public void testStudentBanDelete() {
+		Set<Integer> all = new HashSet<Integer>();
+		all.add(15);
+		all.add(16);
+		System.out.println(ServiceFactory.getStudentService().bantchDelete(all));
+	}
+}

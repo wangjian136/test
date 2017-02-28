@@ -1,0 +1,22 @@
+package cn.edu.ccut.aop;
+
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+@Component
+//@Aspect
+public class LogHandle {
+	
+	//@Before("execution(public boolean cn.edu.ccut.service.impl.StudentServiceImpl.insert(cn.edu.ccut.vo.Student))")
+	public void startSave() {
+		System.out.println("start save...");
+	}
+	
+	//@After("execution(public boolean cn.edu.ccut.service.impl.StudentServiceImpl.insert(cn.edu.ccut.vo.Student))")
+	public void endSave() {
+		System.out.println("end save...");
+	}
+
+}
